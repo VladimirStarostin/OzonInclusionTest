@@ -5,7 +5,7 @@
         public int GetRightIdxBinary(int[] array, int key)
         {
             int leftIdx, median;
-            leftIdx = median = -1;
+            leftIdx = -1;
             int rightIdx = array.Length;
             while (rightIdx - leftIdx > 1)
             {
